@@ -100,7 +100,7 @@
 - `elsif`を使うことで, 分岐条件をさらに増やすことができます
     - PerlにはC言語の`switch`にあたるものはないので, `if`/`elsif`/`else`で代用しましょう
 
-## 練習問題
+## 練習問題(question\_word.pl)
     #!/usr/bin/env perl
     use strict;
     use warnings;

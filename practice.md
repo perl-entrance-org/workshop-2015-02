@@ -15,7 +15,7 @@
 
 ## factorial.pl
 
-- 標準入力により数値を一つ読み込み, その数値を階乗した値を出力する`factorial.pl`を作成しよう
+- 標準入力により数値を一つ読み込み, その数値を[階乗](https://ja.wikipedia.org/wiki/%E9%9A%8E%E4%B9%97)した値を出力する`factorial.pl`を作成しよう
 - 使える知識
   - [標準入力](https://github.com/perl-entrance-org/workshop-2014-02/blob/master/slide.md#%E6%A8%99%E6%BA%96%E5%85%A5%E5%8A%9B)
   - [for文, 配列](https://github.com/perl-entrance-org/workshop-2014-02/blob/master/slide.md#for%E6%96%87-%E9%85%8D%E5%88%97)
