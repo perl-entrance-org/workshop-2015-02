@@ -127,6 +127,17 @@ ___
     - 2行目では, `chomp`で行末の改行を削除しています
 
 ___
+## 標準入力
+
+    print 'input > ';
+    my $str = <STDIN>;
+    chomp $str;
+    print $str . "\n";
+
+- このコードを動かしてみます
+    - `<STDIN>`がどのような働きをするか見てみましょう
+
+___
 # 四則演算
 
 ___
@@ -437,7 +448,7 @@ ___
 ___
 ## for ループ ( 範囲演算子 )
     my @array = ( 1, "hoge", 3 );
-    for my $i (0 .. $#array 1) {
+    for my $i (0 .. ($#array + 1)) {
       print "$array[$i]\n";
     }
 
