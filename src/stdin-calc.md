@@ -17,12 +17,12 @@
     my $hoge = 4;
     my $foo  = 2;
     my $res;
-    $res = $hoge + $foo  # 4 + 2 = 6
-    $res = $hoge - $foo  # 4 - 2 = 2
-    $res = $hoge * $foo  # 4 * 2 = 8
-    $res = $hoge / $foo  # 4 / 2 = 2
-    $res = $hoge % $foo  # 4 % 2 = 0
-    $res = $hoge ** $foo # 4 の 2乗 は 16
+    $res = $hoge + $foo;  # 4 + 2 = 6
+    $res = $hoge - $foo;  # 4 - 2 = 2
+    $res = $hoge * $foo;  # 4 * 2 = 8
+    $res = $hoge / $foo;  # 4 / 2 = 2
+    $res = $hoge % $foo;  # 4 % 2 = 0
+    $res = $hoge ** $foo; # 4 の 2乗 は 16
 
 - `perl`では, C言語と異なりべき乗の計算を簡単に行うことができます
 
