@@ -92,7 +92,7 @@
 
 ## for ループ ( 範囲演算子 )
     my @array = ( 1, "hoge", 3 );
-    for my $i (0 .. ($#array + 1)) {
+    for my $i (0 .. ($#array)) {
       print "$array[$i]\n";
     }
 
